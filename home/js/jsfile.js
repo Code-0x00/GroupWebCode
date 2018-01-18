@@ -1,48 +1,9 @@
 /**
- * Created by xiaobao on 2017/1/29.
+ * Created by Xiao Haoquan on 2017/1/29.
  */
 
-
-//function aa(p){
-//    var array = ["本人主要从事社交网络数据挖掘，计算机视觉，人工智能及模式识别算法设计等研究。在计算机领域A类顶会ICSE及FSE，Physical Review E（美国物理评论）, IEEE TASE, Chaos等国际知名会议及期刊上发表学术论文40余篇，获得2014年度ACM杰出论文提名奖；从2009年从事数据挖掘研究至今，已对中国的豆瓣网、UUCall网络电话，以及美国的Apache软件基金会、StackeExchange问答网站等用户大数据进行了分析；主持3项国家自然科学基金。目前担任中国工业与应用数学学会复杂系统与复杂网络专委会委员、中国指挥与控制学会网络科学与工程专委会委员、中国计算机学会软件工程专委会委员。", "本人的主要研究方向为视频编码传输、机器视觉和嵌入式系统。其中视频编码传输方向主要对高分辨率视频和三维视频的视觉感知编码、快速并行编码和异构网络传输展开研究；机器视觉方向主要利用机器学习技术和图像处理技术对工农业自动化领域的视频图像进行检测识别和智能分析，机器换人提高生产效率；嵌入式系统方向主要是基于高性能嵌入式处理器开发音视频为主的应用系统，包括嵌入式音视频系统硬件设计、基于FPGA的音视频前端处理软件开发、基于DSP的视频图像算法软件开发、以及基于ARM的Linux应用软件开发，采用的嵌入式处理器包括TI公司的DaVinci系列处理器和C66x系列多核处理器、华为海思公司的Hi35xx系列SoC处理器、以及Xilinx公司的Spartan系列FPGA处理器。任职以来主持国家自然科学基金1项、浙江省自然科学基金2项、横向课题6项，发表SCI/EI检索论文20余篇，授权发明专利10余项。", "2002年就读于浙江大学电子信息及仪器专业，师从陈耀武教授。2008年浙江大学博士毕业后，就职于浙江工业大学，浙江省嵌入式系统联合重点实验室。近15年来一直专注于机器视觉、视频处理、嵌入式应用、物联网系统等领域，具有深厚的理论功底以及丰富的产品开发经验"];
-//    var a = document.querySelectorAll(".p-toggle")[0];
-//    var b = document.querySelectorAll(".introduce")[0];
-//    $(".p-button-" + (p+1)).click(function () {
-//        console.log(p);
-//        if (a.style.display == "none" || a.style.display == "") {
-//            b.innerHTML = array[p];
-//            $(".p-toggle").slideToggle("slow");
-//        }
-//        else if (b.innerHTML == array[p]) {
-//
-//            $(".p-toggle").slideToggle("slow");
-//        }
-//        else {
-//            a.style.display = "none";
-//            b.innerHTML = array[p];
-//            $(".p-toggle").slideToggle("slow");
-//        }
-//    });
-//}
-
-
 $(document).ready(function () {
-    //window.onscroll = function () {
-    //    var t = document.body.scrollTop;
-    //    if (t > 450) {
-    //        $("#closediv").fadeIn(2000);
-    //    }
-    //    else {
-    //        $("#closediv").fadeOut(2000);
-    //    }
-    //};
-
-
-
-
-
-
-
+ 
     var array = [
 
         /*宣琦*/    
@@ -765,5 +726,3 @@ var liste = [
     }]
 
 ];
-
-
