@@ -1,0 +1,141 @@
+
+*{ margin:auto; padding:0; text-align:left}
+.center{ margin:0 auto; text-align:left}
+.clear{ clear:both;}
+a:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #D20000;
+	text-decoration: none;
+}
+a.b:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.b:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.b:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #D20000;
+	text-decoration: none;
+}
+.unnamed1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.di {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.unnamed2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.unnamed3 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000066;
+	text-decoration: none;
+	line-height:
+}
+.unnamed4 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none; 
+	line-height:18px;
+	 padding:20 20 3 10;
+}
+.unnamed5 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none; 
+	line-height:20px;
+}
+.unnamed6 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	line-height:23px;
+	height:30;
+}
+.xl{height:15px; background-color:#FEF6EB; font-size:12px; color:#000000; width:120px;}
+.x2{height:14px; background-color:#FEF6EB; font-size:12px; color:#000000; width:100px; border:1px  solid #BACDFC;}
+.font12 {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.top{ width:778px;}
+.font12se {
+	font-size: 12px;
+	color: 2A86B4;
+	text-decoration: none;
+}
+
+.nav{ padding:5px 0;width:778px; height:30px; background:url(ac/index1_r2_c1.jpg) repeat-x;}
+.main{ width:778px;}
+.left{ float:left; width:137px;}
+.mid{ float:left; width:375px;}
+.right{ float:right; width:266px;} 
+.td{ font-size:12;}
+.xiala{ font-size: 14px;
+
+}
+.xiala1 {
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin:0px;
+}
+.table21 {
+	border: 1px dashed #CCCCCC;
+}
+
+/*左侧导航效果ul li*/
+.leftls{font-size:12px;margin:20px; text-align:left;}
+.leftls li{
+	border-bottom:1px #D0D0D0 dashed;
+	line-height:20px;
+	text-align:left;
+	vertical-align:bottom;
+	padding-left: 30px;
+	padding-top:10px;
+}
+
+/*栏目标题*/
+.lmtitle {
+	font-family: "宋体";
+	font-size: 16px;
+	color: #4A6ACA;
+	font-weight: bold;
+	margin-left:95px;
+}
+
+
