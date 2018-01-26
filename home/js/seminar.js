@@ -205,7 +205,7 @@ function urlListNavigation(){
 	{"keyword":"团队成员","url":"members.html"},
 	{"keyword":"课程设置","url":"lesson.html"},
 	{"keyword":"成果展示","url":"publications.html"},
-	{"keyword":"学生相册","url":"camera/photos.html"},
+	{"keyword":"学生相册","url":"photos.html"},
 	{"keyword":"学术活动","url":"teachings.html"},
 	{"keyword":"组会安排","url":"seminar.html"},
 	{"keyword":"招生公告","url":"announcement.html"},
