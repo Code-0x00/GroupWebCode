@@ -221,3 +221,19 @@ function urlListNavigation(){
 		oUl.appendChild(oLi);
 	}
 }
+
+function urlListImages(){
+	var oUl=document.getElementById("Images");
+	for(var i=1;i<39;i++){
+		var oLi=document.createElement("li");
+		oLi.className="portrait";
+
+		var oImg=document.createElement("img");
+		oImg.className="pic";
+		oImg.setAttribute("src","images/"+i+".jpg");
+		oImg.setAttribute("alt","loading");
+
+		oLi.appendChild(oImg);
+		oUl.appendChild(oLi);
+	}
+}
