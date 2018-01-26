@@ -199,7 +199,7 @@ function debug(){
 	console.log('debug...');
 }
 
-function urlList(){
+function urlListNavigation(){
 	data=[
 	{"keyword":"团队简介","url":"index.html"},
 	{"keyword":"团队成员","url":"members.html"},
@@ -210,7 +210,7 @@ function urlList(){
 	{"keyword":"组会安排","url":"seminar.html"},
 	{"keyword":"招生公告","url":"announcement.html"},
 	];
-	var oUl=document.getElementById("xul");
+	var oUl=document.getElementById("Navigation");
 	for(i in data){
 		var oLi=document.createElement("li");
 		var oA=document.createElement("a");
