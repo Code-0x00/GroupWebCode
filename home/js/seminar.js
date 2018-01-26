@@ -199,23 +199,25 @@ function debug(){
 	console.log('debug...');
 }
 
-function tmp(){
+function urlList(){
+	data=[
+	{"keyword":"团队简介","url":"index.html"},
+	{"keyword":"团队成员","url":"members.html"},
+	{"keyword":"课程设置","url":"lesson.html"},
+	{"keyword":"成果展示","url":"publications.html"},
+	{"keyword":"学生相册","url":"camera/photos.html"},
+	{"keyword":"学术活动","url":"teachings.html"},
+	{"keyword":"组会安排","url":"seminar.html"},
+	{"keyword":"招生公告","url":"announcement.html"},
+	];
 	var oUl=document.getElementById("xul");
-	//var oUl;
-	for (var i=0;i<3;i++){
-		var s="<li><a href=\""+i+"\">"+i+"</a></li>";
-		document.write(s);
-	}
-
-	for(var i=0;i<3;i++){
+	for(i in data){
 		var oLi=document.createElement("li");
 		var oA=document.createElement("a");
-		oA.innerHTML="aaa";
-		oA.setAttribute("href",i);
+		oA.innerHTML=data[i].keyword;
+		oA.setAttribute("href",data[i].url);
 		oA.id=i;
 		oLi.appendChild(oA);
 		oUl.appendChild(oLi);
 	}
-	//document.write(oUl);
-	
 }
