@@ -1,3 +1,6 @@
+/**
+ * Created by Xiao Haoquan on 2017/1/29.
+ */
 function setCSS(cssname){
 	var varIP="//10.12.12.30/css/";
 	//<link rel="stylesheet" href="/css/hack.css">
