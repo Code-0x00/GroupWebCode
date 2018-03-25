@@ -198,10 +198,6 @@ function setList(username,ul_id){
 	});
 }
 
-function debug(){
-	console.log('debug...');
-}
-
 function urlListNavigation(){
 	data=[
 	{"keyword":"团队简介","url":"index.html"},
@@ -210,7 +206,7 @@ function urlListNavigation(){
 	{"keyword":"成果展示","url":"publications.html"},
 	{"keyword":"学生相册","url":"photos.html"},
 	{"keyword":"学术活动","url":"teachings.html"},
-	{"keyword":"组会安排","url":"seminar.html"},
+	{"keyword":"组会安排","url":"seminar.html?20180"},
 	{"keyword":"招生公告","url":"announcement.html"},
 	];
 	var oUl=document.getElementById("Navigation");
